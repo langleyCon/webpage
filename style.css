@@ -14,13 +14,8 @@
     font-size: 25px;
 }
 
-.menu-items{
-    padding: 15px;
+.menu {
+    display: flex;
 }
-.item {
-    display: inline;
-    border: 2px black solid;
-    padding: 15px;
-    list-style: none;
-}
+
 
