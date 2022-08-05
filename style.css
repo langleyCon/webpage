@@ -2,6 +2,17 @@ html {
     box-sizing: border-box;
 }
 
+.office-name {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #1a75ff;
+    border-bottom: 2px solid #1a75ff;
+    background-color: black;
+    color: white;
+}
+
+
 .item {
     display: inline;
     border: 2px black solid;
