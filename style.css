@@ -10,9 +10,13 @@ html {
     border-bottom: 2px solid #1a75ff;
     background-color: black;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 
-
+.menu-items{
+    padding: 15px;
+}
 .item {
     display: inline;
     border: 2px black solid;
