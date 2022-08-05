@@ -3,15 +3,29 @@
     box-sizing: border-box;
 }
 
-.office-name {
-    margin: 15px;
-    padding: 10px;
-    text-align: center;
+
+
+body{
+    margin: 0px;
+}
+
+.header-container{
+    display: flex;
+    height: 50px;
+}
+
+.office-border {
     border-top: 2px solid #1a75ff;
     border-bottom: 2px solid #1a75ff;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.office-name {
     color: white;
-    font-size: 25px;
 }
 
 .menu {
@@ -24,8 +38,8 @@
 .menu-item {
     background: gray;
     color: white;
-    padding: 25px;
-    border: 3px solid white;
+    padding: 15px;
+    border: 1px solid white;
     flex: 1;
     text-align: center;
     cursor: pointer;
