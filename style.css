@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+.item {
+    display: inline;
+    border: 2px black solid;
+    padding: 3px;
+    list-style: none;
+}
+
