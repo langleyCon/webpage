@@ -5,7 +5,7 @@ html {
 .item {
     display: inline;
     border: 2px black solid;
-    padding: 3px;
+    padding: 15px;
     list-style: none;
 }
 
