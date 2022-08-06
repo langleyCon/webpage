@@ -102,4 +102,22 @@ body {
     color: black;
 }
 
+.intro-container {
+    display: flex;
+    background-color: #b3ccff;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro-text {
+    border: 1px solid black;
+    width: 400px;
+}
+
+.intro-text p {
+    font-size: large;
+
+}
+
 
