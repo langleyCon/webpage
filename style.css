@@ -38,6 +38,17 @@ body{
     flex: 1;
 }
 
+.quick-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quick-contact p{
+    margin: 0px;
+}
+
 
 /*.banner-container {
     background-color: #b3b3b3;
