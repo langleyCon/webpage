@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0px;
 }
 
@@ -11,7 +11,7 @@ body{
     display: flex;
 }
 
-.header-container{
+.header-container { 
     height: 50px;
 }
 
@@ -33,23 +33,23 @@ body{
     background-color: slategray;
 }
 
-.banner-container div{
+.banner-container div {
     height: 150px;
     flex: 1;
 }
 
-.quick-contact{
+.quick-contact {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.quick-contact p{
+.quick-contact p {
     margin: 0px;
 }
 
-.profile-pic{
+.profile-pic {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,16 +60,20 @@ body{
     max-height: 100%;
 }
 
-.socials{
+.socials {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.facebook{
+.facebook { 
     height: 20px;
     width: 20px;
+}
+
+.facebook:hover {
+    cursor: pointer;
 }
 
 
@@ -83,11 +87,19 @@ body{
 .menu-item {
     background: gray;
     color: white;
+    border: 1px gray solid;
     padding: 15px;
     flex: 1;
     text-align: center;
     cursor: pointer;
+    transition-duration: 0.4s;
+    
 
+}
+
+.menu-item:hover { 
+    background-color: white;
+    color: black;
 }
 
 
