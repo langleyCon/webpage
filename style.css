@@ -55,6 +55,18 @@ body{
     align-items: center;
 }
 
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.facebook{
+    height: 20px;
+    width: 20px;
+}
 
 /*.banner-container {
     background-color: #b3b3b3;
