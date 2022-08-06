@@ -28,30 +28,38 @@ body{
     color: white;
 }
 
+.banner-container {
+    display: flex;
+}
+
 .banner-container div{
+    border: 2px black solid;
+    height: 300px;
+    flex: 1;
+}
+
+
+/*.banner-container {
     background-color: #b3b3b3;
-    height: 200px;
-    justify-content: center;
+    height: 300px;
     align-items: center;
     flex: 1;
 }
 
-.quick-contact {
+.quick-contact div{
     flex-direction: column;
+    justify-self: center;
 }
 
-.social-container {
-    flex-grow: 1;
-}
+
+
+
+
 
 .facebook {
     height: 20px;
     width: 20px;
-}
-
-.profile-container {
-
-}
+}*/
 
 
 .menu {
