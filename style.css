@@ -3,14 +3,15 @@
     box-sizing: border-box;
 }
 
-
-
 body{
     margin: 0px;
 }
 
-.header-container{
+.container {
     display: flex;
+}
+
+.header-container{
     height: 50px;
 }
 
@@ -18,7 +19,6 @@ body{
     border-top: 2px solid #1a75ff;
     border-bottom: 2px solid #1a75ff;
     background-color: black;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
@@ -26,6 +26,17 @@ body{
 
 .office-name {
     color: white;
+}
+
+.banner-container {
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+.facebook {
+    height: 20px;
+    width: 20px;
 }
 
 .menu {
