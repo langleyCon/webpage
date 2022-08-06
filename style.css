@@ -28,16 +28,31 @@ body{
     color: white;
 }
 
-.banner-container {
-    justify-content: space-evenly;
+.banner-container div{
+    background-color: #b3b3b3;
+    height: 200px;
+    justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.quick-contact {
+    flex-direction: column;
+}
+
+.social-container {
+    flex-grow: 1;
 }
 
 .facebook {
     height: 20px;
     width: 20px;
 }
+
+.profile-container {
+
+}
+
 
 .menu {
     display: flex;
