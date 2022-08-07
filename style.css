@@ -81,6 +81,8 @@ body {
 .menu {
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
     height: 50px;
 }
 
@@ -118,6 +120,25 @@ body {
 .intro-text p {
     font-size: large;
 
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    height: 300px;
+    
+}
+
+.about-image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about-text {
+    width: 400px;
 }
 
 
